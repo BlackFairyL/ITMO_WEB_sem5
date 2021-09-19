@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Портфолио Ястреба Елизавета</title>
+    <meta name="description" content="Портфолио для курса по web Ястреба Елизаветы M33041"/>
+    <meta name="author" content="Ястреба Елизавета" />
+</head>
+<body>
+    <header>
+        <h1>Портфолио Ястреба Елизаветы</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#about_me">Обо мне</a></li>
+                <li><a href="#code">Пример кода</a></li>
+                <li><a href="#animal">Тотемное животное</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 id="main">Главная</h2>
+            <p>Привет! Я QA-инженер в желтом банке</p>
+        </section>
+
+        <section>
+            <h2 id="about_me">Обо мне</h2>
+
+            <h3>Образование</h3>
+                <p> <time datetime="2019">2019-...</time> Бакалавр, Университет ИТМО.
+                    Факультет информационных технологий и программирования. Информационные системы и программирование.</p>
+
+            <h3>Навыки</h3>
+                <dl>
+                    <dt>Языки</dt>
+                    <dd>Русский</dd>
+                    <dd>Английский, Pre - Intermediate</dd>
+
+                    <dt>Тестирование ПО</dt>
+                    <dd>Знание основ тестирования ПО (этапов, видов и уровней тестиро-
+                        вания, принципов тестирования)</dd>
+                    <dd>Опыт написания баг-репортов и тест-кейсов</dd>
+                    <dd>Опыт написания BDD-тестов</dd>
+
+                    <dt>Программирование</dt>
+                    <dd>Python, C++/C, Java (Android разработка), Bash</dd>
+                    <dd>Алгоритмы и структуры данных, ООП</dd>
+                </dl>
+        </section>
+        <section>
+            <h2 id="code">Пример кода</h2>
+            <pre>
+                <code>
+        A = [1] * 101
+        A[1] = 0
+        i = 2
+        while i * i <= 100:
+            if A[i] == 1:
+                j = i * i
+                while j <= 100:
+                    A[j] = 0
+                    j = j + i
+            i += 1
+
+        for i in range (1, 100):
+            if A[i] == 1:
+                print(i)
+                </code>
+            </pre>
+        </section>
+
+        <section>
+            <h2 id="animal">Тотемное животное</h2>
+            <pre>
+            ╭━━━━┻┻╮╲╲╲╲╲┏╮Ⓣ
+            ┗┳┳┳╮╰┛┣╲╲╲╲╲┫┃╲
+            ╲╲╲╲┃┊┊╰┻┻┻┻┻╯┃Ⓡ
+            ┏┻┻┻╯┊┊┊┊┊┊┊┊╭╯Ⓔ
+            ╰━━━━━╮╭━╮┊┊╭╯╲Ⓧ
+            ╲╲╲╲╲╲╰╰╲╰╮┊┃╲╲╲
+            ┈┈┈┈┈┈┈┈┈┏╯╭╯┈┈┈
+        </pre>
+        </section>
+
+        <section>
+            <h2 id="contacts">Контакты</h2>
+            <ul>
+                <li>lyizawell@gmail.com</li>
+                <li><a href="https://github.com/BlackFairyL">github.com</a></li>
+                <li>+7 (919) 300-82-84</li>
+            </ul>
+        </section>
+        <aside>
+            <q>Хочется простого.. человеческого.. учиться на <i> дистанционке </i> до конца бакалавриата</q>
+        </aside>
+    </main>
+    <footer>
+        <p>Автор Ястреба Елизавета</p>
+    </footer>
+</body>
+</html>
