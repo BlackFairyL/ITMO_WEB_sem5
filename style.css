@@ -5,6 +5,42 @@ body {
     font-size: 14px;
     line-height: 20px;
     color: #444444;
-    background: #F5EEE6;
+    background: #F4E4EB;
+    isplay:table;
+    table-layout:fixed;
+}
+.page__header {
+    padding: 20px;
 }
 
+.menu
+{
+    margin:0;
+    padding:0;
+    list-style:none;
+    width:100%;
+    display:table;
+    table-layout:fixed;
+}
+.menu__link
+{
+    text-align:center;
+    color:#bfbfbf;
+    cursor:pointer;
+    font-size:14px;
+    height:38px;
+    background-color:#f3f3f3;
+    line-height:38px;
+    border: 1px solid #e7e7e7;
+    display:table-cell;
+    text-decoration: none;
+}
+
+.general
+{
+
+}
+
+.page__footer {
+    padding: 50px;
+}

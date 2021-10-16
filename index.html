@@ -7,35 +7,30 @@
     <meta name="description" content="Портфолио для курса по web Ястреба Елизаветы M33041"/>
     <meta name="author" content="Ястреба Елизавета" />
 </head>
-<body>
-    <header>
-        <h1>Портфолио Ястреба Елизаветы</h1>
+<body class="page">
+    <header class="header page__header">
         <nav class="menu">
-            <ul>
-                <li><a href="#main">Главная</a></li>
-                <li><a href="#about_me">Обо мне</a></li>
-                <li><a href="#code">Пример кода</a></li>
-                <li><a href="#animal">Тотемное животное</a></li>
-                <li><a href="#contacts">Контакты</a></li>
-            </ul>
+            <li><a href="#main" class="menu__link">Главная</a></li>
+            <li><a href="#about_me" class="menu__link">Обо мне</a></li>
+            <li><a href="#contacts" class="menu__link">Контакты</a></li>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <h2 id="main">Главная</h2>
-            <p>Привет! Я QA-инженер в желтом банке</p>
+    <main class="main page__main">
+        <section class="general">
+            <h2 id="main" class="general__header2">Главная</h2>
+            <p class="general__paragraph">Привет! Я QA-инженер в желтом банке</p>
         </section>
 
-        <section>
-            <h2 id="about_me">Обо мне</h2>
+        <section class="skills">
+            <h2 id="about_me" class="skills__header2">Обо мне</h2>
 
-            <h3>Образование</h3>
-                <p> <time datetime="2019">2019-...</time> Бакалавр, Университет ИТМО.
-                    Факультет информационных технологий и программирования. Информационные системы и программирование.</p>
+            <h3 class="skills__header3">Образование</h3>
+            <p class="skills__paragraph"> <time datetime="2019">2019-...</time> Бакалавр, Университет ИТМО.
+                Факультет информационных технологий и программирования. Информационные системы и программирование.</p>
 
-            <h3>Навыки</h3>
-                <dl>
+            <h3 class="skills__header3">Навыки</h3>
+                <dl class="">
                     <dt>Языки</dt>
                     <dd>Русский</dd>
                     <dd>Английский, Pre - Intermediate</dd>
@@ -51,55 +46,19 @@
                     <dd>Алгоритмы и структуры данных, ООП</dd>
                 </dl>
         </section>
-        <section>
-            <h2 id="code">Пример кода</h2>
-            <pre>
-                <code>
-        A = [1] * 101
-        A[1] = 0
-        i = 2
-        while i * i <= 100:
-            if A[i] == 1:
-                j = i * i
-                while j <= 100:
-                    A[j] = 0
-                    j = j + i
-            i += 1
 
-        for i in range (1, 100):
-            if A[i] == 1:
-                print(i)
-                </code>
-            </pre>
-        </section>
-
-        <section>
-            <h2 id="animal">Тотемное животное</h2>
-            <pre>
-            ╭━━━━┻┻╮╲╲╲╲╲┏╮Ⓣ
-            ┗┳┳┳╮╰┛┣╲╲╲╲╲┫┃╲
-            ╲╲╲╲┃┊┊╰┻┻┻┻┻╯┃Ⓡ
-            ┏┻┻┻╯┊┊┊┊┊┊┊┊╭╯Ⓔ
-            ╰━━━━━╮╭━╮┊┊╭╯╲Ⓧ
-            ╲╲╲╲╲╲╰╰╲╰╮┊┃╲╲╲
-            ┈┈┈┈┈┈┈┈┈┏╯╭╯┈┈┈
-        </pre>
-        </section>
-
-        <section>
-            <h2 id="contacts">Контакты</h2>
-            <ul>
-                <li>lyizawell@gmail.com</li>
-                <li><a href="https://github.com/BlackFairyL">github.com</a></li>
-                <li>+7 (919) 300-82-84</li>
+        <section class="contact">
+            <h2 id="contacts" class="content__header2">Контакты</h2>
+            <ul class="contact__link">
+                <li class="contact__link">lyizawell@gmail.com</li>
+                <li class="contact__link"><a href="https://github.com/BlackFairyL">github.com</a></li>
+                <li class="contact__link">+7 (919) 300-82-84</li>
             </ul>
         </section>
-        <aside>
-            <q>Хочется простого.. человеческого.. учиться на <i> дистанционке </i> до конца бакалавриата</q>
-        </aside>
     </main>
-    <footer>
-        <p>Автор Ястреба Елизавета</p>
+
+    <footer class="footer page__footer">
+        <p class="page__footer__paragraph">Автор Ястреба Елизавета</p>
     </footer>
 </body>
 </html>
