@@ -9,47 +9,50 @@
 </head>
 <body class="page">
     <header class="header page__header">
-        <nav class="menu">
-            <li><a href="#main" class="menu__link">Главная</a></li>
-            <li><a href="#about_me" class="menu__link">Обо мне</a></li>
-            <li><a href="#contacts" class="menu__link">Контакты</a></li>
+        <nav>
+            <ul class="menu">
+                <li class="menu__link"><a href="#main" class="menu_a">Главная</a></li>
+                <li class="menu__link"><a href="#about_me" class="menu_a">Обо мне</a></li>
+                <li class="menu__link"><a href="#contacts" class="menu_a">Контакты</a></li>
+            </ul>
         </nav>
     </header>
 
     <main class="main page__main">
-        <section class="general">
-            <h2 id="main" class="general__header2">Главная</h2>
-            <p class="general__paragraph">Привет! Я QA-инженер в желтом банке</p>
+        <section id="main" class="content content__page">
+            <h2 class="content__title">Главная</h2>
+            <p class="content__paragraph">Привет! Я QA-инженер в желтом банке</p>
+            <img src="image/my_photo.jpg" class="content__image" align="right">
         </section>
 
-        <section class="skills">
-            <h2 id="about_me" class="skills__header2">Обо мне</h2>
+        <section class="content">
+            <h2 id="about_me" class="content__title">Обо мне</h2>
 
-            <h3 class="skills__header3">Образование</h3>
-            <p class="skills__paragraph"> <time datetime="2019">2019-...</time> Бакалавр, Университет ИТМО.
+            <h3 class="content__subtitle">Образование</h3>
+            <p class="content__paragraph"> <time datetime="2019">2019-...</time> Бакалавр, Университет ИТМО.
                 Факультет информационных технологий и программирования. Информационные системы и программирование.</p>
 
-            <h3 class="skills__header3">Навыки</h3>
-                <dl class="">
-                    <dt>Языки</dt>
-                    <dd>Русский</dd>
-                    <dd>Английский, Pre - Intermediate</dd>
+            <h3 class="content__subtitle">Навыки</h3>
+                <dl class="skills">
+                    <dt class="skills__list">Языки</dt>
+                    <dd class="skills__list__description">Русский</dd>
+                    <dd class="skills__list__description">Английский, Pre - Intermediate</dd>
 
-                    <dt>Тестирование ПО</dt>
-                    <dd>Знание основ тестирования ПО (этапов, видов и уровней тестиро-
+                    <dt class="skills__list">Тестирование ПО</dt>
+                    <dd class="skills__list__description">Знание основ тестирования ПО (этапов, видов и уровней тестиро-
                         вания, принципов тестирования)</dd>
-                    <dd>Опыт написания баг-репортов и тест-кейсов</dd>
-                    <dd>Опыт написания BDD-тестов</dd>
+                    <dd class="skills__list__description">Опыт написания баг-репортов и тест-кейсов</dd>
+                    <dd class="skills__list__description">Опыт написания BDD-тестов</dd>
 
-                    <dt>Программирование</dt>
-                    <dd>Python, C++/C, Java (Android разработка), Bash</dd>
-                    <dd>Алгоритмы и структуры данных, ООП</dd>
+                    <dt class="skills__list">Программирование</dt>
+                    <dd class="skills__list__description">Python, C++/C, Java (Android разработка), Bash</dd>
+                    <dd class="skills__list__description">Алгоритмы и структуры данных, ООП</dd>
                 </dl>
         </section>
 
-        <section class="contact">
-            <h2 id="contacts" class="content__header2">Контакты</h2>
-            <ul class="contact__link">
+        <section class="content">
+            <h2 id="contacts" class="content__title">Контакты</h2>
+            <ul>
                 <li class="contact__link">lyizawell@gmail.com</li>
                 <li class="contact__link"><a href="https://github.com/BlackFairyL">github.com</a></li>
                 <li class="contact__link">+7 (919) 300-82-84</li>
