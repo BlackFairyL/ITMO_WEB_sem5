@@ -8,17 +8,18 @@ body {
     background: #FAFAFA;
     table-layout:fixed;
 }
+
 .page__header {
     min-width: 100%;
-    max-height: 20%;
+    max-height: 30%;
     position: fixed;
     background: #FAFAFA;
-    z-index: 1000;
-    box-shadow: 0 0 10px #00313D;
+    box-shadow: 0 0 20px #E5E2EB;
     display: -webkit-flex;
     display: flex;
     align-items: center;
     justify-content: center;
+    top: 0;
 }
 
 .menu
@@ -26,7 +27,6 @@ body {
     list-style-type: none;
     display: flex;
     padding: 0;
-
 }
 
 .menu__link
@@ -38,28 +38,25 @@ body {
 
 .menu_a
 {
-    font-size: 20px;
+    font-size: 22px;
     padding: 10px;
     text-decoration: none;
     display: block;
     background: #FAFAFA;
     color: #00313D;
-
 }
 
 .menu_a:hover {
-    background: #FAFAFA;
-    color: #033D2E;
+    background: #E5E2EB;
+    color: #00313D;
+    border-radius: 25px;
 }
-
-.page__main
+hr
 {
-    margin:0;
-    padding:0;
-    list-style:none;
-    width:100%;
-    display:table;
-    table-layout:fixed;
+    border: none;
+    background-color: #E5E2EB;
+    color:  #00313D;
+    height: 2px;
 }
 
 .content__hello
@@ -71,7 +68,7 @@ body {
 
 .content__page
 {
-    margin-top: 85px;
+    margin-top: 80px;
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
@@ -89,23 +86,57 @@ body {
     #box-shadow: 0 0 10px #00313D;
 }
 
+
 .content__title
 {
-    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .content__subtitle
 {
-    padding: 10px;
+    font-size: 18px;
 }
 
-.content__paragraph{
-    padding: 10px;
+.content__paragraph
+{
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.content
+{
+    padding: 20px;
+}
+.skills
+{
+    display: block;
+    margin: 20px;
+}
+
+.skills__list
+{
+    font-size: 16px;
+    margin: 5px;
+
+}
+
+.skills__list__description
+{
+
+    font-style: italic;
+}
+
+.contact
+{
+
 }
 
 .page__footer {
-    padding: 50px;
+    min-width: 100%;
+    background: #E5E2EB;
 }
-.skills{
-    display: block
-}
+
+
