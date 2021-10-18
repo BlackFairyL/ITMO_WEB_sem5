@@ -1,11 +1,6 @@
-@font-face {
-    font-family: "Arial";
-    font-style: normal;
-    font-weight: 400;
-}
 body {
     margin: 0;
-    font-family: "Arial", sans-serif;
+    font-family: "Arial";
     font-size: 14px;
     line-height: 20px;
     color: #00313D;
@@ -66,11 +61,12 @@ hr
 
 }
 
-.content__hello
-{
+.content__hello {
+    font-weight: bolder;
     flex-direction: column;
     font-size: 40px;
     line-height: 1.2;
+    text-transform: capitalize;
 }
 
 .content__page
@@ -109,6 +105,8 @@ hr
     margin: 20px;
     padding-left: 20px;
     font-size: 16px;
+    white-space: normal;
+    text-indent: 1.5em;
 }
 
 .skills
