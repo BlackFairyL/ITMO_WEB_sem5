@@ -61,7 +61,7 @@ hr
 
 .page__main
 {
-    margin-outside: 40 px;
+    margin-outside: 40px;
 }
 
 .content__hello
@@ -128,7 +128,6 @@ hr
 
 .skills__list__description
 {
-
     font-style: italic;
 }
 
@@ -138,7 +137,6 @@ hr
     height: 70px;
     min-width: 100%;
     background: #E5E2EB;
-    position:relative;
     z-index:-1;
 }
 
