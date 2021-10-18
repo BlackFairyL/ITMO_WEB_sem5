@@ -36,7 +36,7 @@ body {
     align-items: center;
 }
 
-.menu_a
+.menu__a
 {
     font-size: 22px;
     padding: 10px;
@@ -57,6 +57,11 @@ hr
     background-color: #E5E2EB;
     color:  #00313D;
     height: 2px;
+}
+
+.page__main
+{
+    margin-outside: 40 px;
 }
 
 .content__hello
@@ -86,9 +91,9 @@ hr
     #box-shadow: 0 0 10px #00313D;
 }
 
-
 .content__title
 {
+    margin: 20px;
     font-size: 25px;
     display: flex;
     align-items: center;
@@ -97,23 +102,21 @@ hr
 
 .content__subtitle
 {
+    margin: 20px;
     font-size: 18px;
 }
 
 .content__paragraph
 {
+    margin: 20px;
     padding-left: 20px;
     font-size: 16px;
 }
 
-.content
-{
-    padding: 20px;
-}
 .skills
 {
     display: block;
-    margin: 20px;
+    margin-left: 40px;
 }
 
 .skills__list
@@ -129,14 +132,36 @@ hr
     font-style: italic;
 }
 
-.contact
-{
 
-}
 
 .page__footer {
+    height: 70px;
     min-width: 100%;
     background: #E5E2EB;
+    position:relative;
+    z-index:-1;
 }
 
+.contact
+{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-left: 10px;
+}
 
+.contact__link
+{
+    text-align: center;
+    align-items: center;
+}
+
+.contact__a
+{
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    background: #E5E2EB;
+    color: #00313D;
+}
