@@ -45,13 +45,13 @@ body {
 
 
 .menu_a:hover {
-    background: #E5E2EB;
+    background: #e5e2eb;
     color: #00313D;
 }
 hr
 {
     border: none;
-    background-color: #E5E2EB;
+    background-color: #e5e2eb;
     color:  #00313D;
     height: 2px;
 }
@@ -130,30 +130,31 @@ hr
 {
     background: #f0f0f0;
 }
-
-@media screen and (min-width: 800px) {
-    .page__footer {
-        height: 100%;
-        min-width: 100%;
-        background: #E5E2EB;
-        z-index: -1;
-    }
-
-    .contact {
-        list-style-type: none;
-        display: flex;
-        padding: 0;
-        margin-left: 5%;
-        justify-content: center
-    }
-
-
-    .contact__a {
-        padding: 10px;
-        font-size: 125%;
-        text-decoration: none;
-        display: block;
-        background: #E5E2EB;
-        color: #00313D;
+@media screen and (max-device-width: 600px) {
+    .main__table
+    {
+        display: none;
     }
 }
+
+.page__footer {
+    height: 100%;
+    min-width: 100%;
+    z-index: -1;
+}
+.contact {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-left: 5%;
+    justify-content: center
+}
+
+.contact__a {
+    padding-left: 10px;
+    font-size: 125%;
+    text-decoration: none;
+    display: block;
+    color: #00313D;
+}
+
