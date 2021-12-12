@@ -37,20 +37,19 @@ body {
 {
     font-size: 170%;
     padding: 10px;
-    text-decoration: none;
     display: block;
     background: #FAFAFA;
+    text-decoration: none;
     color: #00313D;
 }
-.menu__a:active
-{
-    background: red;
-    color: red;
+.active {
+    text-decoration: underline;
 }
-.menu__a:hover
-{
-    background: red;
-    color: red;
+.menu__a:visited {
+    background: #FAFAFA;
+}
+.menu__a:hover {
+    color: #ff9933;
 }
 
 hr
