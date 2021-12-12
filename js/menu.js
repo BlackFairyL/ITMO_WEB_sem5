@@ -7,7 +7,6 @@ document.writeln('                <li class="menu__link"><a href="../web_lab1/ta
 document.writeln('            </ul>');
 document.writeln('        </nav>');
 
-$(function () {
     $('.menu__a').each(function () {
         let location = window.location.href;
         let link = this.href;
@@ -16,4 +15,3 @@ $(function () {
             $(this).addClass('active');
         }
     });
-});
