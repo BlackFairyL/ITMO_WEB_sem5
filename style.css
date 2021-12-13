@@ -139,12 +139,6 @@ hr
 {
     background: #f0f0f0;
 }
-@media screen and (max-device-width: 600px) {
-    .main__table
-    {
-        display: none;
-    }
-}
 
 .page__footer {
     height: 100%;
@@ -189,3 +183,9 @@ hr
     background: url('image/reload-cat.gif') no-repeat 50% 50%; /*расположение (url) изображения gif и др. параметры*/
 }
 
+@media screen and (max-device-width: 600px) {
+    .main__table
+    {
+        display: none;
+    }
+}
