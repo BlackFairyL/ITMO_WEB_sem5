@@ -189,11 +189,3 @@ hr
     background: url('image/reload-cat.gif') no-repeat 50% 50%; /*расположение (url) изображения gif и др. параметры*/
 }
 
-.loaded_hiding .preloader {
-    transition: 0.3s opacity;
-    opacity: 0;
-}
-
-.loaded .preloader {
-    display: none;
-}
