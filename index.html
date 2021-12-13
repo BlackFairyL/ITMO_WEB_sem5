@@ -22,14 +22,8 @@
     </main>
 </body>
 
-<footer>
-    <script>
-        window.onload = function() {
-            var loadTime = window.performance.timing.domContentLoadedEventEnd - window.performance.timing.navigationStart;
-            document.getElementById('time').innerHTML = loadTime;
-            document.getElementById('time').innerHTML += "ms";
-        }
-    </script>
+<footer class="page__footer">
+    <script src="js/loadtime.js" type="text/javascript"></script>
     <div id="time"></div>
 </footer>
 </html>
