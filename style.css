@@ -180,7 +180,7 @@ hr
     height: 256px;
     margin-top: -128px;
     margin-left: -128px;
-    background: url('image/reload-cat.gif') no-repeat 50% 50%; /*расположение (url) изображения gif и др. параметры*/
+    background: url('image/reload-cat.gif') no-repeat 50% 50%;
 }
 
 @media screen and (max-device-width: 600px) {
