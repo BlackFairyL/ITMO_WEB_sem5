@@ -1,4 +1,5 @@
 window.onload = function() {
+
     function addRow(obj) {
         var tbody = document.querySelector("tbody");
         var template = document.querySelector('#template');
@@ -9,18 +10,17 @@ window.onload = function() {
         td[2].textContent = obj.group;
         tbody.appendChild(clone);
     }
+
     function send(){
+        let id = `f${(+new Date).toString(16)}`;
         let name = document.querySelector("#name").value;
         let lastName = document.querySelector("#lastName").value;
         let group = document.querySelector("#group").value;
-        if (name == '' || lastName == '' || group == "Выберете группу"){
-
-        }
-        else {
+        if (!(name == '' || lastName == '' || group == "Выберете группу")){
+            localStorage.setItem(id.toString(), JSON.stringify({name, lastName, group}));
             addRow({name, lastName, group});
         }
     }
-
     const btn = document.querySelector('#send');
         btn.onclick = function () {
             send();
