@@ -3,6 +3,7 @@ document.writeln('            <ul class="menu">');
 document.writeln('                <li class="menu__link"><a href="../web_lab1/index.html" class="menu__a" id="menu__a__id">Главная</a></li>');
 document.writeln('                <li class="menu__link"><a href="../web_lab1/about_me.html" class="menu__a" id="menu__a__id">Обо мне</a></li>');
 document.writeln('                <li class="menu__link"><a href="../web_lab1/contacts.html" class="menu__a" id="menu__a__id">Контакты</a></li>');
+document.writeln('                <li class="menu__link"><a href="../web_lab1/constructor_menu.html" class="menu__a" id="menu__a__id">5 лаба</a></li>');
 document.writeln('            </ul>');
 document.writeln('        </nav>');
 
