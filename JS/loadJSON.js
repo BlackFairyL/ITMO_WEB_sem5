@@ -21,11 +21,7 @@ window.onload = async function () {
         let data = await request.json();
         addRow(data);
     } else {
-            document.getElementById("json").innerHTML = "Что-то пошло не так"
+            document.querySelector("tbody").innerHTML = "Что-то пошло не так"
         }
-    request.onerror = function () {
-        document.getElementById("json").innerHTML = "Что-то пошло не так"
-    };
-
 }
 

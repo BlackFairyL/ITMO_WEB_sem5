@@ -12,7 +12,7 @@ window.onload = function() {
     }
 
     function send(){
-        let id = `f${(+new Date).toString(16)}`;
+        let id = localStorage.length;
         let name = document.querySelector("#name").value;
         let lastName = document.querySelector("#lastName").value;
         let group = document.querySelector("#group").value;
