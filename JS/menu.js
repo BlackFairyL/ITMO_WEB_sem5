@@ -17,3 +17,7 @@ $(function () {
         }
     });
 });
+
+new Drift(document.querySelector("img"), {
+    paneContainer: document.querySelector("p")
+});

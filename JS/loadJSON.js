@@ -26,6 +26,6 @@ window.onload = async function () {
     request.onerror = function () {
         document.getElementById("json").innerHTML = "Что-то пошло не так"
     };
-    request.send();
+
 }
 
