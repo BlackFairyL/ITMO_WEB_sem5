@@ -37,17 +37,21 @@ body {
 {
     font-size: 170%;
     padding: 10px;
-    text-decoration: none;
     display: block;
     background: #FAFAFA;
+    text-decoration: none;
     color: #00313D;
 }
-
-
-.menu_a:hover {
-    background: #e5e2eb;
-    color: #00313D;
+.active {
+    text-decoration: underline;
 }
+.menu__a:visited {
+    background: #FAFAFA;
+}
+.menu__a:hover {
+    color: #ff9933;
+}
+
 hr
 {
     border: none;
@@ -63,12 +67,17 @@ hr
     line-height: 1.2;
 }
 
-.content__page
+.content__page__main
 {
     margin: 8% 2% 3%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.content__page
+{
+    margin: 8% 2% 3%;
 }
 
 .content__image
@@ -132,9 +141,8 @@ hr
 }
 
 .page__footer {
-    height: 100%;
-    min-width: 100%;
-    z-index: -1;
+    position: absolute;
+    bottom: 0px;
 }
 .contact {
     list-style-type: none;
