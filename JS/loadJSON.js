@@ -14,8 +14,8 @@ window.onload = async function () {
         }
     }
 
-    let id = Math.floor(Math.random() * 100);
-    let str = "https://jsonplaceholder.typicode.com/comments/" + id.toString() + "/posts"
+    var id = Math.floor(Math.random() * 10).toString();
+    var str = `https://jsonplaceholder.typicode.com/users/${id}/posts`;
     let request = await fetch(str);
     if (request.ok) {
         let data = await request.json();
@@ -24,4 +24,3 @@ window.onload = async function () {
             document.querySelector("tbody").innerHTML = "Что-то пошло не так"
         }
 }
-
