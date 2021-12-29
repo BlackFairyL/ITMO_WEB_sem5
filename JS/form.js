@@ -14,12 +14,13 @@ window.onload = function() {
     function send(){
         let id = localStorage.length;
         let name = document.querySelector("#name").value;
-        document.querySelector("#name").value = ""
         let lastName = document.querySelector("#lastName").value;
-        document.querySelector("#lastName").value = "";
         let group = document.querySelector("#group").value;
-        document.querySelector("#group").value = "Выберете группу";
+
         if (!(name == '' || lastName == '' || group == "Выберете группу")){
+            document.querySelector("#name").value = "";
+            document.querySelector("#lastName").value = "";
+            document.querySelector("#group").value = "Выберете группу";
             localStorage.setItem(id.toString(), JSON.stringify({name, lastName, group}));
             addRow({name, lastName, group});
         }
