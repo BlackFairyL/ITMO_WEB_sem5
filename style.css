@@ -139,12 +139,6 @@ hr
 {
     background: #f0f0f0;
 }
-@media screen and (max-device-width: 600px) {
-    .main__table
-    {
-        display: none;
-    }
-}
 
 .page__footer {
     position: absolute;
@@ -166,3 +160,9 @@ hr
     color: #00313D;
 }
 
+@media screen and (max-device-width: 600px) {
+    .main__table
+    {
+        display: none;
+    }
+}
