@@ -170,6 +170,7 @@ hr
     overflow: hidden;
     background: #fff;
     z-index: 1001;
+
 }
 
 .preloader__image {
@@ -181,6 +182,7 @@ hr
     margin-top: -128px;
     margin-left: -128px;
     background: url('image/reload-cat.gif') no-repeat 50% 50%;
+    display: flow;
 }
 
 @media screen and (max-device-width: 600px) {
@@ -188,4 +190,7 @@ hr
     {
         display: none;
     }
+}
+table, th, td {
+    border: 1px solid black;
 }
